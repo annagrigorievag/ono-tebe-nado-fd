@@ -147,7 +147,7 @@
 
 /* лоты */
 .lots {
-    padding: 180px 20px;
+    padding: 175px 20px;
 }
 
 .lots__heading {
@@ -164,11 +164,12 @@
     /* margin-left: 24px;
     margin-right: 24px; */
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .lots__card-list-item {
     flex: 1;
-    max-height: 596px;
+    min-height: 560px;
 }
 
 .lots__look-more-link {
@@ -232,6 +233,7 @@
 .about__column {
     padding-bottom: 40px;
     min-width: 686px;
+    padding-top: 10px;
 }
 
 .about__column_logo {
