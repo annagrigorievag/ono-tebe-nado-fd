@@ -147,7 +147,7 @@
 
 /* лоты */
 .lots {
-    padding: 175px 20px;
+    padding: 185px 0 5px 20px;
 }
 
 .lots__heading {
@@ -160,16 +160,16 @@
     display: flex;
     gap: 25px;
     list-style: none;
-    margin-bottom: 65px;
+    margin-bottom: 40px;
     /* margin-left: 24px;
     margin-right: 24px; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
 }
 
 .lots__card-list-item {
-    flex: 1;
-    min-height: 560px;
+    flex: 0 0 334px;
+    min-height: 590px;
 }
 
 .lots__look-more-link {
@@ -189,7 +189,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 106%;
+    height: 100%;
     padding: 50px 40px;
     color: #fff;
 }
@@ -227,13 +227,13 @@
     grid-template-columns: 255px 1fr;
     gap: 63px;
     /* padding: 0 50px 250px; */
-    padding: 0 65px 115px;
+    padding: 145px 65px 115px;
 }
 
 .about__column {
     padding-bottom: 40px;
     min-width: 686px;
-    padding-top: 10px;
+    padding-top: 25px;
 }
 
 .about__column_logo {
